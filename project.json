@@ -1,10 +1,13 @@
 {
-  "name": "BlankProcess4",
-  "projectId": "02c3d0b9-5b5f-432f-9b25-612b908a3e3b",
+  "name": "ExcelAutomationMIS",
+  "projectId": "b98b92fa-9258-4a12-8901-530fba25d90c",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.AzureActiveDirectory.Activities": "[1.5.0]",
     "UiPath.Excel.Activities": "[2.25.1-preview]",
+    "UiPath.IntegrationService.Activities": "[1.14.0]",
+    "UiPath.MicrosoftOffice365.Activities": "[3.0.11]",
     "UiPath.System.Activities": "[25.2.1]"
   },
   "webServices": [],
@@ -47,7 +50,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "62e2f201-a569-4a47-a43f-4a2a49a33b9d",
+      "uniqueId": "114ce237-902d-4393-bccb-b1bb190160a0",
       "input": [],
       "output": []
     }
